@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Дискриминанта на квадратно уравнение", "Дискриминанта на квадратно уравнение\Дискриминанта на квадратно уравнение.csproj", "{4D5C7CC2-91A7-4118-9156-99BE3BA8A431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Дискриминанта на квадратно уравнение", "Дискриминанта на квадратно уравнение\Дискриминанта на квадратно уравнение.csproj", "{4D5C7CC2-91A7-4118-9156-99BE3BA8A431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Поздрав", "Поздрав\Поздрав.csproj", "{663A00D9-2844-421F-9AD4-3EB694746A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Поздрав", "Поздрав\Поздрав.csproj", "{663A00D9-2844-421F-9AD4-3EB694746A9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Графичен потребителски интерфейс на калкулатор", "Графичен потребителски интерфейс на калкулатор\Графичен потребителски интерфейс на калкулатор.csproj", "{7B6D4458-0C6B-4DFE-B136-7480D7A135D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Проверка за високосна година", "Проверка за високосна година\Проверка за високосна година.csproj", "{1C2ADAA8-2DD9-45EF-9206-9E0000CA73B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Проверка за високосна година", "Проверка за високосна година\Проверка за високосна година.csproj", "{1C2ADAA8-2DD9-45EF-9206-9E0000CA73B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Форматиране на дробно число", "Форматиране на дробно число\Форматиране на дробно число.csproj", "{04F6C376-AF7C-4699-AF9F-A3D293EE6515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Форматиране на дробно число", "Форматиране на дробно число\Форматиране на дробно число.csproj", "{04F6C376-AF7C-4699-AF9F-A3D293EE6515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Проверка за дробно число", "Проверка за дробно число\Проверка за дробно число.csproj", "{273F6FD9-E19F-4792-BC85-7AE59485F241}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{04F6C376-AF7C-4699-AF9F-A3D293EE6515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04F6C376-AF7C-4699-AF9F-A3D293EE6515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04F6C376-AF7C-4699-AF9F-A3D293EE6515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273F6FD9-E19F-4792-BC85-7AE59485F241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273F6FD9-E19F-4792-BC85-7AE59485F241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273F6FD9-E19F-4792-BC85-7AE59485F241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273F6FD9-E19F-4792-BC85-7AE59485F241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
