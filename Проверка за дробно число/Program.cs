@@ -11,12 +11,10 @@ try
 catch(FormatException) { Console.WriteLine("Wrong input!");Environment.Exit(1); }
 bool Check(int n)
 {
-    if (n < 2)
-        return false;
+    if (n < 2) return false;
     for (int i = 2; i <= n / 2; i++)
     {
-        if (n % i == 0)
-            return false;
+        if (n % i == 0) return false;
     }
     return true;
 }
