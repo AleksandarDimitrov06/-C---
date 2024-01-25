@@ -29,13 +29,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Конзолен калку
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Текстово-базирана приключенска игра", "Текстово-базирана приключенска игра\Текстово-базирана приключенска игра.csproj", "{D8CC7042-59E5-4421-A7FB-0B049D377E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Най-голям и най-малък елемент на масив", "Най-голям и най-малък елемент на масив\Най-голям и най-малък елемент на масив.csproj", "{4C7837AB-89AD-4FE6-9013-045564E0D32F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Най-голям и най-малък елемент на масив", "Най-голям и най-малък елемент на масив\Най-голям и най-малък елемент на масив.csproj", "{4C7837AB-89AD-4FE6-9013-045564E0D32F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сортиране на масив по метода на мехурчето", "Сортиране на масив по метода на мехурчето\Сортиране на масив по метода на мехурчето.csproj", "{2BBD1736-7010-4FA3-B751-DA71110E74AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Сортиране на масив по метода на мехурчето", "Сортиране на масив по метода на мехурчето\Сортиране на масив по метода на мехурчето.csproj", "{2BBD1736-7010-4FA3-B751-DA71110E74AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Намиране на броя на инверсиите в масив", "Намиране на броя на инверсиите в масив\Намиране на броя на инверсиите в масив.csproj", "{4F4E07B7-F835-42F0-8E6F-9BA1D7AFB518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Намиране на броя на инверсиите в масив", "Намиране на броя на инверсиите в масив\Намиране на броя на инверсиите в масив.csproj", "{4F4E07B7-F835-42F0-8E6F-9BA1D7AFB518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сумиране на елементите на квадратна матрица", "Сумиране на елементите на квадратна матрица\Сумиране на елементите на квадратна матрица.csproj", "{E5162F30-6BDE-4E12-A603-82F5B65E6017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Сумиране на елементите на квадратна матрица", "Сумиране на елементите на квадратна матрица\Сумиране на елементите на квадратна матрица.csproj", "{E5162F30-6BDE-4E12-A603-82F5B65E6017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Температури през седмицата", "Температури през седмицата\Температури през седмицата.csproj", "{B87896B7-D42C-453F-A970-426716B92899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Пресмятане на срочни оценки", "Пресмятане на срочни оценки\Пресмятане на срочни оценки.csproj", "{BA692B7E-E4A7-4679-9589-407F8748CB83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Градове и пътища", "Градове и пътища\Градове и пътища.csproj", "{E14A7E11-B53D-4C02-BEEE-405F05A85164}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +117,18 @@ Global
 		{E5162F30-6BDE-4E12-A603-82F5B65E6017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5162F30-6BDE-4E12-A603-82F5B65E6017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5162F30-6BDE-4E12-A603-82F5B65E6017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87896B7-D42C-453F-A970-426716B92899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87896B7-D42C-453F-A970-426716B92899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87896B7-D42C-453F-A970-426716B92899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87896B7-D42C-453F-A970-426716B92899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA692B7E-E4A7-4679-9589-407F8748CB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA692B7E-E4A7-4679-9589-407F8748CB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA692B7E-E4A7-4679-9589-407F8748CB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA692B7E-E4A7-4679-9589-407F8748CB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E14A7E11-B53D-4C02-BEEE-405F05A85164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14A7E11-B53D-4C02-BEEE-405F05A85164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14A7E11-B53D-4C02-BEEE-405F05A85164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14A7E11-B53D-4C02-BEEE-405F05A85164}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
