@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Пресмятане на �
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Градове и пътища", "Градове и пътища\Градове и пътища.csproj", "{E14A7E11-B53D-4C02-BEEE-405F05A85164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Обръщане на масив", "Обръщане на масив\Обръщане на масив.csproj", "{8BC65B21-9CF3-49D3-92DA-49916C4F29D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Обръщане на масив", "Обръщане на масив\Обръщане на масив.csproj", "{8BC65B21-9CF3-49D3-92DA-49916C4F29D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Двоично търсене в сортиран масив", "Двоично търсене в сортиран масив\Двоично търсене в сортиран масив.csproj", "{5D67059E-6EDD-4118-96A6-0215B815CB05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{8BC65B21-9CF3-49D3-92DA-49916C4F29D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC65B21-9CF3-49D3-92DA-49916C4F29D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC65B21-9CF3-49D3-92DA-49916C4F29D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D67059E-6EDD-4118-96A6-0215B815CB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D67059E-6EDD-4118-96A6-0215B815CB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D67059E-6EDD-4118-96A6-0215B815CB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D67059E-6EDD-4118-96A6-0215B815CB05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
