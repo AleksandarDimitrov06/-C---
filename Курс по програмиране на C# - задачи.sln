@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Рационални чис
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Печатни произведения", "Печатни произведения\Печатни произведения.csproj", "{FEF62111-23F6-47B8-95DE-644E873579B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Аритметични изрази", "Аритметични изрази\Аритметични изрази.csproj", "{689437A5-DBA1-420D-8860-4A83EC08833D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Аритметични изрази", "Аритметични изрази\Аритметични изрази.csproj", "{689437A5-DBA1-420D-8860-4A83EC08833D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Оказион", "Оказион\Оказион.csproj", "{9374ADC3-4AA6-4F87-94F2-FEAC08B67EC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{689437A5-DBA1-420D-8860-4A83EC08833D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{689437A5-DBA1-420D-8860-4A83EC08833D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{689437A5-DBA1-420D-8860-4A83EC08833D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9374ADC3-4AA6-4F87-94F2-FEAC08B67EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9374ADC3-4AA6-4F87-94F2-FEAC08B67EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9374ADC3-4AA6-4F87-94F2-FEAC08B67EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9374ADC3-4AA6-4F87-94F2-FEAC08B67EC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
