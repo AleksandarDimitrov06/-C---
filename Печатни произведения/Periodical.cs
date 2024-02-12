@@ -8,11 +8,11 @@ namespace Печатни_произведения
 {
     public abstract class Periodical:PrintedWork
     {
-        public int Period;
+        public string Period;
         public int Frequency;
-        public Periodical(string title,string language,int period,int frequency):base(title, language)
+        public Periodical(string title,string language,int Period_Start,int Period_End,int frequency):base(title, language)
         {
-            Period = period;
+            Period = $"{Period_Start}/{Period_End}";
             Frequency = frequency;
         }
         public override string Print()

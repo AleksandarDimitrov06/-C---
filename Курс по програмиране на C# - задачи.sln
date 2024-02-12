@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Аритметични из
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Оказион", "Оказион\Оказион.csproj", "{9374ADC3-4AA6-4F87-94F2-FEAC08B67EC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Геометрични фигури", "Геометрични фигури\Геометрични фигури.csproj", "{EDA77FD7-D19F-4804-912E-30EA8E61BEC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Геометрични фигури", "Геометрични фигури\Геометрични фигури.csproj", "{EDA77FD7-D19F-4804-912E-30EA8E61BEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Златотърсачи", "Златотърсачи\Златотърсачи.csproj", "{A86DC1B2-C57F-47A9-A913-FEE572C5AD0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{EDA77FD7-D19F-4804-912E-30EA8E61BEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDA77FD7-D19F-4804-912E-30EA8E61BEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDA77FD7-D19F-4804-912E-30EA8E61BEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86DC1B2-C57F-47A9-A913-FEE572C5AD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86DC1B2-C57F-47A9-A913-FEE572C5AD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86DC1B2-C57F-47A9-A913-FEE572C5AD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86DC1B2-C57F-47A9-A913-FEE572C5AD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

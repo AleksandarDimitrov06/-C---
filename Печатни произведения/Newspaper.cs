@@ -16,17 +16,17 @@ namespace Печатни_произведения
         }
         public Types Type;
         public bool ColorPrint;
-        public Newspaper(string title,string language, int period, int frequency,Types type,bool colorprint) :base(title, language, period, frequency)
+        public Newspaper(string title,string language, int Start_Period,int End_Period, int frequency,Types type,bool colorprint) :base(title, language, Start_Period,End_Period, frequency)
         {
             Type = type;
             ColorPrint = colorprint;
         }
         public override string Print()
         {
-            string a;
-            if (ColorPrint) a = "Yes";
-            else a = "No";
-            return base.Print()+$" - {Type} - Color Print: {a}";
+            string Has_Color_Print;
+            if (ColorPrint) Has_Color_Print = "Yes";
+            else Has_Color_Print = "No";
+            return base.Print()+$" - {Type} - Color Print: {Has_Color_Print}";
         }
     }
 }

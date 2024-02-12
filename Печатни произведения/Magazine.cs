@@ -9,7 +9,7 @@ namespace Печатни_произведения
     public class Magazine:Periodical
     {
         public string About;
-        public Magazine(string title, string language, int period, int frequency,string about) : base(title, language, period, frequency)
+        public Magazine(string title, string language, int Start_Period,int End_Period, int frequency,string about) : base(title, language, Start_Period,End_Period, frequency)
         {
             About = about;
         }

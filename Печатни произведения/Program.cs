@@ -3,10 +3,13 @@ List<PrintedWork>works = new List<PrintedWork>();
 
 Console.WriteLine("What type of Printed work you want to add 'Book' / 'Periodical' / 'Print'");
 string input = Console.ReadLine();
+
+
 while(!String.IsNullOrEmpty(input))
 { 
-switch (input)
-{
+
+    switch (input)
+    {
         case "Book":
             Console.WriteLine("What type of book you want to add 'Fiction' / 'Technical'");
             string book=Console.ReadLine();
