@@ -1,34 +1,62 @@
-﻿double a=0; 
-Console.Write("Enter a: ");
-try
+﻿//променлива за първия коефициент
+
+double a=0;
+
+
+//приканваме потребителя да въведе число и проверяваме входние данни
+
+bool Check_Input_For_A = false;
+
+while (!Check_Input_For_A)
 {
-   a = double.Parse(Console.ReadLine());
+    Console.Write("Enter a: ");
+    //проверяваме въведените данни
+    Check_Input_For_A=double.TryParse(Console.ReadLine(), out a);
+    
+    //на конзолата се изписва съобщение ако данните не са валидни
+
+    if(!Check_Input_For_A) Console.WriteLine("Wrong input! Try again.");
 }
-catch (Exception) 
-{ 
-    Console.WriteLine("Wrong input!"); 
-    Environment.Exit(0);
-}
+
+
+//другите коефициенти се имплементират по същия начин
+
+//втори коефициент
+
 double b=0;
-Console.Write("Wrong input: ");
-try
+
+bool Check_Input_For_B = false;
+
+while (!Check_Input_For_B)
 {
-    b = double.Parse(Console.ReadLine());
+    Console.Write("Enter b: ");
+    
+    Check_Input_For_B = double.TryParse(Console.ReadLine(), out b);
+
+
+    if (!Check_Input_For_B) Console.WriteLine("Wrong input! Try again.");
 }
-catch (Exception) 
-{ Console.WriteLine("Wrong input");
-    Environment.Exit(0);
-}
+
+
+
+//трети коефициент
 double c=0;
-Console.Write("Enter c: ");
-try
+
+bool Check_Input_For_C = false;
+
+while (!Check_Input_For_C)
 {
-    c = double.Parse(Console.ReadLine());
+    Console.Write("Enter c:");
+
+    Check_Input_For_C=double.TryParse(Console.ReadLine(),out c);
+
+    if (!Check_Input_For_C) Console.WriteLine("Wrong input! Try again."); 
 }
-catch (Exception) 
-{ 
-    Console.WriteLine("Wrong input");
-    Environment.Exit(0);
-}
+
+
+//правим променлива, която пресмята дискриминантата
+
 double discriminant = b * b - 4 * a * c;
+
+//показваме резултата на конзолата
 Console.WriteLine($"Discriminant = {discriminant}");
