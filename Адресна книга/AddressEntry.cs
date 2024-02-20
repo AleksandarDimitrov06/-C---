@@ -6,17 +6,23 @@ using System.Threading.Tasks;
 
 namespace Адресна_книга
 {
+    //създаваме клас на име AddressEntry
     public class AddressEntry
     {
+        //създаваме полета име,адрес и номер
         private string name;
         private string address;
         private int number;
+
+        //правим конструктор
         public AddressEntry(string name, string address, int number)
         {
             this.name = name;
             this.address = address;
             this.number = number;
         }
+
+        //правим свойства за трите полета
         public string Name
         {
             get { return name; }
@@ -32,6 +38,8 @@ namespace Адресна_книга
             get { return number; }
             set { number = value; }
         }
+
+        //пренаписваме метода ToString
         public override string ToString()
         {
             return $"{Name} - {Address} - {Number}";
