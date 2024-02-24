@@ -6,25 +6,43 @@ using System.Threading.Tasks;
 
 namespace Геометрични_фигури
 {
+
+    //клас за куб
     public class Cube:GeometryObject,IObject3D
     {
-        private double a;
-        public double A {  get { return a; } set {  a = value; } }
+
+        //поле за страната
+        private double side;
+
+        //свойство за страната
+        public double Side {  get { return side; } set {  side = value; } }
+
+
+        //конструктор
         public Cube(string name,double a):base (name)
         {
-            this.a = a;
+            this.side = a;
         }
+
+
+        //метод за повърхнина
         public double CalculateSurfaceArea()
         {
-            return 6*Math.Pow(A,2);
+            return 6*Math.Pow(Side,2);
         }
+
+
+        //метод за обем
         public double CalculateVolume()
         {
-            return Math.Pow(A, 3);
+            return Math.Pow(Side, 3);
         }
+
+
+        //пренаписваме метода ToString
         public override string ToString()
         {
-            return base.ToString()+$" A - {A} SurfaceArea - {CalculateSurfaceArea()} Volume - {CalculateVolume()}";
+            return base.ToString()+$" A - {Side} SurfaceArea - {CalculateSurfaceArea()} Volume - {CalculateVolume()}";
         }
     }
 }

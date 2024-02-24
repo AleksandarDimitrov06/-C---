@@ -6,18 +6,30 @@ using System.Threading.Tasks;
 
 namespace Геометрични_фигури
 {
+
+    //клас за произволен многоъгълник
     public class ArbitraryPolygon : GeometryObject, IObject2D
     {
+        //поле за страните, които ще се съхраняват в масив
         private double[] sides;
+
+
+        //свойство за страните
         public double[] Sides
         {
             get { return sides; }
             set { this.sides = value; }
         }
+
+
+        //конструктор
         public ArbitraryPolygon(string name, double[] sides):base(name)
         {
             this.Sides = sides;
         }
+
+
+        //метод за изчисляване на обиколка
         public double CalculatePerimeter()
         {
                 double perimeter = 0;
@@ -27,6 +39,9 @@ namespace Геометрични_фигури
                 }
                 return perimeter;          
         }
+
+
+        //метод за изчисляване на лице
         public double CalculateArea()
         {
             double area = 0;
@@ -39,6 +54,9 @@ namespace Геометрични_фигури
             }
             return Math.Abs(area / 2);
         }
+
+
+        //пренаписваме метода ToString
         public override string ToString()
         {
             StringBuilder sides=new StringBuilder();
